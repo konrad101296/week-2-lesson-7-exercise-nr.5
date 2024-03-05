@@ -1,18 +1,18 @@
-﻿Console.WriteLine("podaj swoj wiek liczbą: ");
+Console.WriteLine("podaj swoj wiek liczbą: ");
 int Wiek = int.Parse(Console.ReadLine());
 
-if (Wiek > 20 && Wiek < 30)
+if (Wiek > 20 && Wiek < 29)
 {
     Console.WriteLine("Możesz zostac posłem");
     Console.WriteLine("Mozesz zostac premierem");
 }
-else if (Wiek > 29 && Wiek < 35)
+else if (Wiek >= 29 && Wiek < 35)
 {
     Console.WriteLine("Możesz zostac senatorem");
     Console.WriteLine("Możesz zostac posłem");
     Console.WriteLine("Mozesz zostac premierem");
 }
-else if (Wiek > 34)
+else if (Wiek >= 35)
 {
     Console.WriteLine("Możesz zostac senatorem");
     Console.WriteLine("Możesz zostac posłem");
